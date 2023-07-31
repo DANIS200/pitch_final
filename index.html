@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pitch final</title>
+    <!-- CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Nav -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="main-nav">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">MADAECO</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-1">
+                        <a href="#info" class="nav-link"> Pitch</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="#clients" class="nav-link">Nos partenair</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="#start" class="nav-link">Dépôt github</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="#newsletter" class="nav-link">Newsletter</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header, accueil grande image -->
+
+    <header class="text-center" id="top">
+
+        <div class="text-intro">
+
+            <div class="preTxt text-white font-italic">Architecture générale de projet :
+</div>
+            <h1>
+                Gestion de commerce 
+            </h1>
+            <a href="https://danis200.github.io/HACKATHON-2023-_Gestion-de-Commerce/" class="btn btn-primary mt-3">VOIR MON PROJET</a>
+        </div>
+
+
+    </header>
+
+    <!-- Section Info -->
+
+    <section id="info" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div id="txtLaptop" class="col-md-6 align-self-center">
+                    <h3>Architecture générale de projet : </h3>
+                    <p>-une page de vue sous forme de liste ,montant tout les articles disponibles à la vente ; </p>
+                    <p>-une page "produit" qui affiche de manière dynamique l'élément sélectionner par l'utilisateur et lui permet de personnaliser le produit et l'ajouter à son panier ; </p>
+                    <p>-une page "panier "contenant un résume des produits dans le panier ,le prix total et une formulaire permettant de passer une commande. Les donnéés du formulaire doivent être renvoyées au back-end </p>
+                    <p>-une page Dashboard ,remerciant d'utilisateur pour sa commande et indiquant le prix totale et l'identifiant de commande ,message ,modification et top produits de client envoyé par le serveurs . </p>
+                    <h3>Le problème que je veux résoudre jusque aujhourdi : </h3>
+                    <ul>
+                        <li>- Mail Connection et Facebook Connection </li>
+                        <li>- Forum avec la gestion de ticket client </li>
+                        <li>- paiement sécurisé </li>
+                    </ul>
+                    <p>Pensez-vous que Node.js peut répondre à ces besoins ? Car j'ai un peu de mal à trouver de la documentation de création d'un site e-commerce avec Node.js ! Je pense que Node.js est l'avenir </p>
+                    <a href="https://danis200.github.io/HACKATHON-2023-_Gestion-de-Commerce/" class="btn btn-outline-danger">voir mon projet</a>
+            
+                </div>
+                <div class="col-md-6">
+                    <img src="img/laptop.png" alt="ordinateur" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Section 3 Icônes -->
+
+    <section id="home-icons">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 text-center">
+                    <i class="fas fa-cog fa-3x mb-2"></i>
+                    <h3>Outils des clients cible</h3>
+                    <p>Le public objectif sera toujours le groupe de personnes ou d’entreprises qui a des besoins similaires, ou qui veut acheter un type de produit ou service. 
+                        C’est donc, le groupe des consommateurs potentiels du produit ou service de votre entreprise.
+                        Toute entreprise a besoin de connaître sa cible pour ainsi s’assurer que les efforts de marketing sont dirigés vers le bon public, et donc, qu’ils seront effectifs. 
+                    </p>
+                    <p>En résumé, vous ne pourrez pas satisfaire les désirs de vos clients si vous ne savez pas à qui sont adressés vos produits, donc l’identification du public objectif est une condition nécessaire pour tout projet qui veut être compétitif et performant sur le marché.</p>
+                </div>
+                <div class="col-md-4 mb-4 text-center">
+                    <i class="fas fa-cloud fa-3x mb-2"></i>
+                    <h3>Données utiles des clients</h3>
+                    <h4>Les données relatives au comportement d’achat et au parcours client</h4>
+                    <p>Le nombre de commandes, le panier moyen, la date du dernier achat…Ces données vous permettent de distinguer les petits des gros clients, et d’adapter en conséquence votre stratégie promotionnelle ou de fidélisation.
+                    </p>
+                    <h4> Les centres d’intérêt de vos clients</h4>
+                    <p>Connaître les centres d’intérêt de vos clients est très utile pour connaître leurs désirs et cibler vos offres marketing.</p>
+                    <h4> Les données liées au niveau de satisfaction client</h4>
+                    <p>La connaissance et l’optimisation du niveau de satisfaction de vos clients sont essentielles afin de déterminer les points de friction réguliers de votre expérience client. Au niveau individuel, cette information est notamment primordiale en amont d’un échange avec le service client.
+
+                        A noter que dans certains cas et pour certains secteurs, il est important également de collecter les données relatives à la localisation géographique des clients.
+                        </p>
+                </div>
+                <div class="col-md-4 mb-4 text-center">
+                    <i class="fas fa-cart-plus fa-3x mb-2"></i>
+                    <h3>Gagnez de l'argent</h3>
+                    <p>Les moyens de monétisation sont : les bannières publicitaires, les produits à vendre en affiliation, des revenus par simple connexion sur votre page… L'idée est donc de faire monter vos sites en audience, grâce au référencement payant ou naturel (SEO) en publiant de bons contenus.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Call to Action -->
+    <section id="start" class="py-5">
+        <div class="container py-5">
+            <h2 class="pb-3">Nom du dépôt de projet sur github</h2>
+            <p class="d-none d-md-block"><a href="https://github.com/DANIS200/HACKATHON-2023-_Gestion-de-Commerce">
+                HACKATHON-2023-_Gestion-de-Commerce </a>.</p>
+            <a href="https://github.com/DANIS200/HACKATHON-2023-_Gestion-de-Commerce" class="btn btn-primary">Voir Maintenant</a>
+        </div>
+    </section>
+
+
+    <!-- Section partenair -->
+
+
+    <section id="clients" class="my-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="info-header mb-5">
+                        <h2 class="pb-3">Nos Partenair</h2>
+                        <p class="lead pb-5">
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./img/danis.jpg" alt="visage" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Antoine Danis</h3>
+                            <h5 class="text-muted">Développeur</h5>
+                            <p>bénéficiaire D-CLIC 2023 , porteur de projet Gestion de commerce</p>
+                                <a href="https://danis200.github.io/portfolio/" class="voir-plus"> voir plus</a>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-4">
+                                    <a href="https://www.facebook.com/K.A.Danien">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://twitter.com">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://instagram.com">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/visage4.png" alt="visage" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>sahaza</h3>
+                            <h5 class="text-muted">Marketing</h5>
+                            <p>bénéficiaire D-CLIC 2023, l'aide projet sur techniques marketing </p>
+                                <a href="" class="voir-plus"> voir plus</a>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-4">
+                                    <a href="http://facebook.com">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://twitter.com">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://instagram.com">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="./img/stepha.png" alt="visage" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Stephanson</h3>
+                            <h5 class="text-muted">Développeur</h5>
+                            <p>bénéficiaire D-CLIC 2023, l'aide projet</p>
+                                <a href="" class="voir-plus"> voir plus</a>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-4">
+                                    <a href="http://facebook.com">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://twitter.com">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://instagram.com">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/visage3.png" alt="visage" class="img-fluid rounded-circle w-50 mb-3">
+                            <h3>Mijoro</h3>
+                            <h5 class="text-muted">Web-Design</h5>
+                            <p>bénéficiaire D-CLIC 2023, l'aide projet</p>
+                                <a href="" class="voir-plus"> voir plus</a>
+                            <div class="d-flex justify-content-center">
+                                <div class="p-4">
+                                    <a href="http://facebook.com">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://twitter.com">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="http://instagram.com">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+
+    <section id="newsletter" class="text-center p-5 bg-dark text-white">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Abonnez-vous à la Newsletter</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ratione odit recusandae
+                        consequuntur aliquam reiciendis unde repellendus molestiae deleniti esse!</p>
+                    <form class="form-inline justify-content-center">
+                        <input type="text" class="form-control mb-2 mr-2" placeholder="Nom">
+                        <input type="text" class="form-control mb-2 mr-2" placeholder="Email">
+                        <button class="btn btn-primary mb-2">Soumettre</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="main-footer" class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy;
+                        <span id="year"></span> MADAECO
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- Script Jquery  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <!-- Javascript de Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+     <script>
+     
+     // Générer Date
+     $('#year').text(new Date().getFullYear());
+
+    // ScrollSpy
+    $('body').scrollspy({target: '#main-nav'});
+
+     </script>
+</body>
+
+</html>
